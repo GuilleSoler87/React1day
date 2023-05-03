@@ -1,0 +1,52 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.home-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-description {
+    margin-bottom: 20px;
+}
+
+.home-technologies {
+    margin-top: 50px;
+}
+
+.home-technologies-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.home-technologies-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.home-technologies-list-item {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
